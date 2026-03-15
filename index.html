@@ -321,7 +321,7 @@ card.href=item.url
 card.target="_blank"
 
 card.innerHTML=`
-<img src="${item.cover}">
+<img loading="lazy" src="${item.cover}">
 <div class="card-body">
 <div class="subtitle">${item.subtitle || ""}</div>
 <div class="week">${item.title}</div>
